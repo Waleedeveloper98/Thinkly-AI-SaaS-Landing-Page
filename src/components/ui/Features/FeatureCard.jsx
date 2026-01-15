@@ -8,7 +8,7 @@ const FeatureCard = ({ feature }) => {
         <img className="size-full object-cover" src={img} alt={heading} />
       </div>
       <div className="card-details px-3 flex flex-col gap-2">
-        <h4 className="text-2xl font-medium  text-[var(--text-heading)]">
+        <h4 className="text-xl sm:text-2xl font-semibold  text-[var(--text-heading)]">
           {heading}
         </h4>
         <p className="text-sm text-[var(--text-body)]">{desc}</p>

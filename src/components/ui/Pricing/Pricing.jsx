@@ -7,7 +7,7 @@ import { pricingData } from "../../../data";
 
 const Pricing = () => {
   return (
-    <section id="pricing" className="w-full px-4 py-6 flex flex-col gap-10 pb-10 md:pb-28 bg-[var(--bg-section)] items-center justify-center md:pt-20 md:gap-20">
+    <section id="pricing" className="w-full px-4 py-6 flex flex-col pt-28 gap-10 pb-10 md:pb-28 bg-[var(--bg-section)] items-center justify-center md:pt-20 md:gap-20">
       <PageHeader
         title={"Pricing"}
         subTitle={"Start free. Upgrade when you’re ready."}

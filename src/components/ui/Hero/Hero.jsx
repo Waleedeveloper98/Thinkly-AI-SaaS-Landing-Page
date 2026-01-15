@@ -24,7 +24,7 @@ const Hero = () => {
         </h3>
       </div>
       <div className="buttons px-8 flex flex-col gap-4 md:gap-6 md:flex-row md:w-fit w-full">
-        <Button className={"text-[var(--text-invert)] hover:bg-[var(--hover-primary)] shadow-[0_3px_10px_rgb(0,0,0,0.2)]"} text={"Get Started Free"} />
+        <Button className={"text-[var(--text-invert)] hover:bg-[var(--hover-primary)] shadow-[0_3px_10px_rgb(0,0,0,0.2)] font-semibold"} text={"Get Started Free"} />
         <SecondaryButton className={"hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)]"} text={"Watch Demo"} />
       </div>
     </section>

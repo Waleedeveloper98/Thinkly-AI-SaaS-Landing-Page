@@ -10,13 +10,13 @@ const MobileNav = () => {
     setIsOpen((prev) => !prev);
   };
   return (
-    <header className="block md:hidden fixed top-0 left-0 w-full bg-[var(--bg-navbar)] py-4">
-      <nav className="w-full flex items-center justify-between border-b border-[var(--border-subtle)] pb-4">
+    <header className="block md:hidden fixed top-0 left-0 w-full bg-[var(--bg-navbar)] ">
+      <nav className="w-full flex items-center justify-between border-b border-[var(--border-subtle)] py-4">
         <h4 className="logo font-semibold text-xl text-[var(--text-heading)] pl-4">
           Thinkly
         </h4>
         <div
-          className={`menu absolute top-0 left-0 px-4 py-20 pt-30 w-full h-screen transform transition-transform duration-300 ${
+          className={`menu bg-white absolute top-16 left-0 px-4 py-20 pt-20 w-full h-screen transform transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >

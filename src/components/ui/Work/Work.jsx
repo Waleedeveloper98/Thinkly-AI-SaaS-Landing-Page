@@ -7,7 +7,7 @@ import PageHeader from "../PageHeader";
 
 const Work = () => {
   return (
-    <section id="howitworks" className="w-full px-4 py-6 flex flex-col gap-10 pb-10 md:pb-28 md:pt-20 md:gap-20">
+    <section id="howitworks" className="w-full px-4 py-6 flex flex-col pt-28 gap-10 pb-10 md:pb-28 md:pt-20 md:gap-20">
       <PageHeader
         title={"How It Works"}
         subTitle={"A simple, smart process designed to save you time."}

@@ -12,7 +12,7 @@ const WorkCard = ({ work }) => {
           <div className="bg-[var(--text-heading)] text-[var(--text-invert)] rounded-full size-6 flex items-center justify-center text-sm">
             <p>{no}</p>
           </div>
-          <h4 className="text-2xl font-medium  text-[var(--text-heading)]">
+          <h4 className="text-xl md:text-2xl font-medium  text-[var(--text-heading)]">
             {heading}
           </h4>
         </div>

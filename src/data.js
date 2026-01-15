@@ -86,15 +86,15 @@ export const pricingData = [
 export const footerLinks = [
     {
         text: "Features",
-        href: "#features"
+        href: "features"
     },
     {
         text: "How it Works",
-        href: "#howitworks"
+        href: "howitworks"
     },
     {
         text: "Pricing",
-        href: "#pricing"
+        href: "pricing"
     },
     {
         text: "Privacy Policy",

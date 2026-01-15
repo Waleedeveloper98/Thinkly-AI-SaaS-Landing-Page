@@ -3,16 +3,20 @@ import React from "react";
 import Button from "../Button";
 
 const PricingCard = ({ priceCard }) => {
-  const { isPopular, planName, price, benefits } = priceCard;
+  const { isPopular, planName, price, benefits, buttonText } = priceCard;
   return (
-    <div className={`pricing-card relative flex flex-col gap-4 divide-[var(--border-subtle)] bg-[var(--bg-card)] rounded-lg shadow-sm shadow-black/10 ring-1 ring-black/10 px-3 py-8 w-[clamp(300px,89vw,400px)] md:w-[clamp(300px,89vw,320px)] ${isPopular && "md:scale-105"}`}>
+    <div
+      className={`pricing-card relative flex flex-col gap-4 divide-[var(--border-subtle)] bg-[var(--bg-card)] rounded-lg shadow-sm shadow-black/10 ring-1 ring-black/10 px-3 py-8 w-[clamp(300px,89vw,400px)] md:w-[clamp(300px,89vw,320px)] ${
+        isPopular && "md:scale-105"
+      }`}
+    >
       {isPopular && (
         <div className="tag bg-green-400 w-fit px-3 py-1 rounded-full font-medium text-xs absolute right-4 top-6 z-50 text-[var(--text-invert)]">
           Most Popular
         </div>
       )}
       <div className="bg absolute top-0 right-0 h-2/5 w-3/5 dotted mask-b-from-1 mask-l-from-20%"></div>
-      <div className="top border-b flex flex-col gap-6 pb-6">
+      <div className="top border-b flex flex-col gap-8 pb-6">
         <h5 className="text-[var(--text-heading)] text-2xl font-medium">
           {planName}
         </h5>
@@ -22,10 +26,8 @@ const PricingCard = ({ priceCard }) => {
           <h6 className="self-end">per month</h6>
         </div>
         <Button
-          className={
-            "self-center w-full bg-transparent text-[var(--text-heading)] ring-1 ring-[var(--border-subtle)] hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-          }
-          text={"Start Free"}
+          className={`self-center w-full text-[var(--text-heading)] ring-1 ring-[var(--border-subtle)] ${isPopular ? "bg-[var(--btn-primary-bg)] hover:bg-[var(--hover-primary)] text-white" : "bg-transparent hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)]"} font-semibold`}
+          text={buttonText}
         />
       </div>
       <div className="bottom flex flex-col gap-3 text-[var(--text-body)]">
