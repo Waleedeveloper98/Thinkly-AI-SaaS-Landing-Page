@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Backgrounds */
+  --bg-main: #FFFFFF;
+  --bg-section: #F9FAFB;
+  --bg-card: #FFFFFF;
+  --bg-navbar: #FFFFFF;
+
+  /* Text */
+  --text-heading: #0F172A;
+  --text-body: #4B5563;
+  --text-muted: #6B7280;
+  --text-invert: #FFFFFF;
+
+  /* Accent */
+  --color-primary: #4F46E5;
+  --color-secondary: #22D3EE;
+
+  /* Borders */
+  --border-subtle: #E5E7EB;
+
+  /* Buttons */
+  --btn-primary-bg: #4F46E5;
+  --btn-primary-text: #FFFFFF;
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #4B5563;
+  --btn-secondary-border: #E5E7EB;
+
+  /* Hover */
+  --hover-primary: #4338CA;
+  --hover-text: #0F172A;
+}
+
+.dark {
+  /* Backgrounds */
+  --bg-main: #0B0F1A;
+  --bg-section: #0F172A;
+  --bg-card: #111827;
+  --bg-navbar: #0B0F1A;
+
+  /* Text */
+  --text-heading: #FFFFFF;
+  --text-body: #9CA3AF;
+  --text-muted: #6B7280;
+  --text-invert: #FFFFFF;
+
+  /* Accent Colors */
+  --color-primary: #4F46E5;
+  /* Indigo */
+  --color-secondary: #22D3EE;
+  /* Cyan */
+
+  /* Borders */
+  --border-subtle: #1F2937;
+
+  /* Buttons */
+  --btn-primary-bg: #4F46E5;
+  --btn-primary-text: #FFFFFF;
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #9CA3AF;
+  --btn-secondary-border: #1F2937;
+
+  /* Hover */
+  --hover-primary: #6366F1;
+  --hover-text: #FFFFFF;
+}
+
+
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font2{
+   font-family: "Playfair Display", serif;
+}
