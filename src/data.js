@@ -41,3 +41,67 @@ export const workData = [
         desc: "Follow your smart plan and stay productive all day."
     },
 ]
+
+export const pricingData = [
+    {
+        isPopular: false,
+        planName: "Starter Plan",
+        price: 0,
+        buttonText: "Start Free",
+        benefits: [
+            "Basic task organization",
+            "Daily planning",
+            "Limited AI suggestions",
+            "Single workspace"
+        ]
+    },
+    {
+        isPopular: true,
+        planName: "Pro Plan",
+        price: 12,
+        buttonText: "Go Pro",
+        benefits: [
+            " Unlimited tasks",
+            "Advanced AI planning",
+            "Smart reminders",
+            "Focus mode",
+            "Priority support",
+        ]
+    },
+    {
+        isPopular: false,
+        planName: "Team Plan",
+        price: 29,
+        buttonText: "Start with Team",
+        benefits: [
+            "Everything in Pro",
+            "Team collaboration",
+            "Shared dashboards",
+            "Admin controls",
+            "Team analytics",
+        ]
+    },
+]
+
+export const footerLinks = [
+    {
+        text: "Features",
+        href: "#features"
+    },
+    {
+        text: "How it Works",
+        href: "#howitworks"
+    },
+    {
+        text: "Pricing",
+        href: "#pricing"
+    },
+    {
+        text: "Privacy Policy",
+        href: "#"
+    },
+    {
+        text: "Terms of Service",
+        href: "#"
+    },
+]

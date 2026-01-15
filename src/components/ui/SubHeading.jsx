@@ -1,9 +1,9 @@
 import React from "react";
 
-const SubHeading = ({ text }) => {
+const SubHeading = ({ subTitle }) => {
   return (
     <h6 className="text-[var(--text-body)] text-[clamp(14px,4vw,18px)]">
-      {text}
+      {subTitle}
     </h6>
   );
 };

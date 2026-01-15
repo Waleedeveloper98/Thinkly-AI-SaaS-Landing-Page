@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../Button";
+import Lenis from "@studio-freight/lenis";
+import { Link } from "react-scroll";
 
 const DesktopNav = () => {
   return (
@@ -10,19 +12,47 @@ const DesktopNav = () => {
         </h4>
         <ul className="flex items-center gap-12 text-[var(--text-body)]">
           <li>
-            <a href="#">Home</a>
+            <Link className="cursor-pointer" to="#">
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#">Features</a>
+            <Link
+              to="features"
+              smooth={true}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Features
+            </Link>
           </li>
           <li>
-            <a href="#">How It Works</a>
+            <Link
+              className="cursor-pointer"
+              to="howitworks"
+              smooth={true}
+              duration={500}
+            >
+              How it Works
+            </Link>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <Link
+              className="cursor-pointer"
+              to="pricing"
+              smooth={true}
+              duration={500}
+            >
+              Pricing
+            </Link>
           </li>
           <li>
-            <Button text={"Get Started"} />
+            <Button
+              className={
+                "shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-[var(--text-invert)] hover:bg-[var(--hover-primary)]"
+              }
+              text={"Get Started"}
+            />
           </li>
         </ul>
       </nav>
