@@ -20,3 +20,24 @@ export const featureData = [
         desc: "Access your work from anywhere, on any device."
     },
 ]
+
+export const workData = [
+    {
+        no: 1,
+        img: "./images/work1.webp",
+        heading: "Add Your Work",
+        desc: "Enter your tasks, goals, or to-dos in Thinkly"
+    },
+    {
+        no: 2,
+        img: "./images/work2.webp",
+        heading: "Let AI Do the Thinking",
+        desc: "Our AI analyzes, prioritizes, and organizes everything for you."
+    },
+    {
+        no: 3,
+        img: "./images/work3.webp",
+        heading: " Get Things Done",
+        desc: "Follow your smart plan and stay productive all day."
+    },
+]
