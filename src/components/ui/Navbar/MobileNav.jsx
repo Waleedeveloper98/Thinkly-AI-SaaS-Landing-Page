@@ -9,20 +9,24 @@ const MobileNav = () => {
   const handleMenu = () => {
     setIsOpen((prev) => !prev);
   };
+
   return (
-    <header className="block md:hidden fixed top-0 left-0 w-full bg-[var(--bg-navbar)] ">
+    <header className="block md:hidden fixed top-0 left-0 w-full bg-[var(--bg-navbar)] z-[9999]">
       <nav className="w-full flex items-center justify-between border-b border-[var(--border-subtle)] py-4">
         <h4 className="text-shadow logo font-semibold text-xl text-[var(--text-heading)] pl-4">
           Thinkly
         </h4>
+
+        {/* MENU */}
         <div
-          className={`menu bg-white absolute top-16 left-0 px-4 py-20 pt-20 w-full h-screen transform transition-transform duration-300 ${
+          className={`menu absolute z-[9999] top-16 left-0 px-4 py-20 w-full h-screen bg-[var(--bg-main)]
+          transform transition-transform duration-300 ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <ul className="flex flex-col h-full gap-4 text-[var(--text-body)] bg-[var(--bg-main)]">
+          <ul className="flex flex-col gap-4 text-[var(--text-body)] h-full">
             <li>
-              <Link className="cursor-pointer" to="#">
+              <Link className="cursor-pointer block py-2" to="#">
                 Home
               </Link>
             </li>
@@ -31,14 +35,14 @@ const MobileNav = () => {
                 to="features"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer"
+                className="cursor-pointer block py-2"
               >
                 Features
               </Link>
             </li>
             <li>
               <Link
-                className="cursor-pointer"
+                className="cursor-pointer block py-2"
                 to="howitworks"
                 smooth={true}
                 duration={500}
@@ -48,7 +52,7 @@ const MobileNav = () => {
             </li>
             <li>
               <Link
-                className="cursor-pointer"
+                className="cursor-pointer block py-2"
                 to="pricing"
                 smooth={true}
                 duration={500}
@@ -66,9 +70,10 @@ const MobileNav = () => {
             </li>
           </ul>
         </div>
+
         <div
           onClick={handleMenu}
-          className="cursor-pointer relative z-20 hover:text-[var(--text-heading)] pr-4 active:scale-105"
+          className="cursor-pointer relative z-[10000] hover:text-[var(--text-heading)] pr-4 active:scale-105"
         >
           {isOpen ? <X /> : <Menu />}
         </div>
