@@ -12,7 +12,7 @@ const MobileNav = () => {
   return (
     <header className="block md:hidden fixed top-0 left-0 w-full bg-[var(--bg-navbar)] ">
       <nav className="w-full flex items-center justify-between border-b border-[var(--border-subtle)] py-4">
-        <h4 className="logo font-semibold text-xl text-[var(--text-heading)] pl-4">
+        <h4 className="text-shadow logo font-semibold text-xl text-[var(--text-heading)] pl-4">
           Thinkly
         </h4>
         <div

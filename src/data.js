@@ -1,44 +1,44 @@
 export const featureData = [
     {
-        img: "./images/feature1.webp",
+        img: "./images/features/organizing-data.svg",
         heading: "Smart Task Organization",
         desc: "Thinkly automatically organizes your tasks based on priority, deadlines, and importance"
     },
     {
-        img: "./images/feature2.webp",
+        img: "./images/features/key-insights.svg",
         heading: "AI-Powered Planning",
-        desc: "Let AI create the perfect daily plan for you in seconds"
+        desc: "Thinkly intelligently creates a personalized daily plan to help you work faster and smarter."
     },
     {
-        img: "./images/feature3.webp",
+        img: "./images/features/programming.svg",
         heading: "Focus Mode",
-        desc: "Remove distractions and stay locked in on what matters most."
+        desc: "Thinkly removes distractions and helps you stay deeply focused on what truly matters."
     },
     {
-        img: "./images/feature4.webp",
+        img: "./images/features/server-status.svg",
         heading: "Cloud Sync",
-        desc: "Access your work from anywhere, on any device."
+        desc: "Thinkly syncs your work across devices so you can access it anytime, anywhere."
     },
 ]
 
 export const workData = [
     {
         no: 1,
-        img: "./images/work1.webp",
+        img: "./images/works/deep-work.svg",
         heading: "Add Your Work",
         desc: "Enter your tasks, goals, or to-dos in Thinkly"
     },
     {
         no: 2,
-        img: "./images/work2.webp",
+        img: "./images/works/artificial-intelligence.svg",
         heading: "Let AI Do the Thinking",
-        desc: "Our AI analyzes, prioritizes, and organizes everything for you."
+        desc: "Our AI analyzes, prioritizes, and organizes everything"
     },
     {
         no: 3,
-        img: "./images/work3.webp",
+        img: "./images/works/success.svg",
         heading: " Get Things Done",
-        desc: "Follow your smart plan and stay productive all day."
+        desc: "Follow your smart plan and stay productive all day"
     },
 ]
 

@@ -12,7 +12,7 @@ const Work = () => {
         title={"How It Works"}
         subTitle={"A simple, smart process designed to save you time."}
       />
-      <div className="work-container flex flex-col gap-12 items-center justify-center md:flex-row md:flex-wrap lg:gap-14">
+      <div className="work-container flex flex-col gap-16 items-center justify-center md:flex-row md:flex-wrap lg:gap-14">
         {workData.map((work) => (
           <WorkCard key={work.no} work={work} />
         ))}

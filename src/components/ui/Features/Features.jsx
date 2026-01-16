@@ -10,7 +10,7 @@ const Features = () => {
         title={"Features"}
         subTitle={"Smarter tools for a smarter workflow."}
       />
-      <div className="features-container flex flex-col gap-8 items-center justify-center md:flex-row md:flex-wrap lg:gap-14">
+      <div className="features-container flex flex-col gap-16 items-center justify-center md:flex-row md:flex-wrap lg:gap-14">
         {featureData.map((feature, i) => (
           <FeatureCard key={i} feature={feature} />
         ))}

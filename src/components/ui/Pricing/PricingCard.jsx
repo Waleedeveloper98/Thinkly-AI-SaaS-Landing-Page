@@ -6,12 +6,12 @@ const PricingCard = ({ priceCard }) => {
   const { isPopular, planName, price, benefits, buttonText } = priceCard;
   return (
     <div
-      className={`pricing-card relative flex flex-col gap-4 divide-[var(--border-subtle)] bg-[var(--bg-card)] rounded-lg shadow-sm shadow-black/10 ring-1 ring-black/10 px-3 py-8 w-[clamp(300px,89vw,400px)] md:w-[clamp(300px,89vw,320px)] ${
+      className={`pricing-card relative flex flex-col gap-4 divide-[var(--border-subtle)] bg-[var(--bg-card)] rounded-lg shadow-md shadow-black/10 ring-1 ring-black/10 px-6 md:px-4 py-8 w-[clamp(300px,89vw,400px)] md:w-[clamp(300px,89vw,320px)] ${
         isPopular && "md:scale-105"
       }`}
     >
       {isPopular && (
-        <div className="tag bg-green-400 w-fit px-3 py-1 rounded-full font-medium text-xs absolute right-4 top-6 z-50 text-[var(--text-invert)]">
+        <div className="tag bg-green-400 shadow-md w-fit px-3 py-1 rounded-full font-medium text-xs absolute right-2.5 top-6 z-50 text-[var(--text-invert)]">
           Most Popular
         </div>
       )}
@@ -33,8 +33,8 @@ const PricingCard = ({ priceCard }) => {
       <div className="bottom flex flex-col gap-3 text-[var(--text-body)]">
         {benefits.map((benefit, i) => (
           <div key={i} className="flex items-center gap-2">
-            <CircleCheck size={14} stroke="#6B7280" />
-            <p>{benefit}</p>
+            <CircleCheck size={14} stroke="#6B7280"/>
+            <p className="text-sm">{benefit}</p>
           </div>
         ))}
       </div>

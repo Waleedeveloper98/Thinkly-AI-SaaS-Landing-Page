@@ -7,10 +7,10 @@ const DesktopNav = () => {
   return (
     <header className="hidden md:block w-full bg-[var(--bg-navbar)]">
       <nav className="w-full flex items-center justify-between border-b border-[var(--border-subtle)] py-4 px-10">
-        <h4 className="logo font-semibold text-xl text-[var(--text-heading)]">
+        <h4 className="text-shadow logo font-semibold text-xl md:text-3xl text-[var(--text-heading)]">
           Thinkly
         </h4>
-        <ul className="flex items-center gap-12 text-[var(--text-body)]">
+        <ul className="flex items-center gap-12 text-[var(--text-body)] md:text-sm">
           <li>
             <Link className="cursor-pointer" to="#">
               Home
