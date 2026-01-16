@@ -1,16 +1,66 @@
-# React + Vite
+# Thinkly — AI SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thinkly is a modern, animated SaaS landing page built to showcase a fictional AI productivity assistant. The goal of this project is to demonstrate clean UI design, subtle micro-interactions, and professional-grade motion using Framer Motion.
 
-Currently, two official plugins are available:
+This project focuses on **real-world SaaS UI patterns**, not flashy animations—everything is subtle, purposeful, and conversion-focused.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Modern SaaS landing page layout
+- Clean light theme UI
+- Fully responsive design
+- Professional typography & spacing
+- Smooth section entrance animations
+- Premium card hover interactions
+- Micro-interactions on buttons & links
+- Scroll-based reveal animations
+- Clean and minimal design system
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Concept
+
+**Thinkly** is an AI-powered productivity assistant that helps users:
+
+- Organize tasks
+- Plan their day
+- Stay focused
+- Work smarter
+
+This landing page is designed to feel like a real startup product website.
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+
+---
+
+## 🎯 Animation Philosophy
+
+This project follows a **premium SaaS animation style**:
+
+> Good motion should be *felt*, not *noticed*.
+
+All animations are:
+- Subtle
+- Purpose-driven
+- Non-distracting
+- UX-focused
+
+### Motion Patterns Used
+
+- Fade + slight upward movement on section entry
+- Soft scale-in for cards
+- Micro-interactions on hover
+- Press feedback on buttons
+- Staggered entrance animations
+- Scroll-triggered reveals
+
+
+
